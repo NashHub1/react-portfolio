@@ -1,5 +1,6 @@
 import React from 'react'
 import CV from '../../Assets/CV_Stephens_black.pdf'
+import './Header.css'
 function CTA() {
   return (
     <div className='cta'>
