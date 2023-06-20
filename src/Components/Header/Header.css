@@ -4,7 +4,7 @@ header {
   overflow: hidden;
 }
 
-.header__container {
+.header_container {
   text-align: center;
   height: 100%;
   position: relative;
@@ -12,26 +12,49 @@ header {
 
 /* == CTA ==  */
 .cta {
-    margin-top: 2.5rem ;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 /* === Header Socials ==== */
 .header_socials {
-    display: flex;  
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;    
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
 }
 
-.header_socials::after{
-    content: "";
-    width: 2px;
-    height: 2rem;
-    background: var(--color-primary);
+.header_socials::after {
+  content: "";
+  width: 2px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* === ME === */
+.nash_img {
+  background: linear-gradient(var(--color-primary) 20%, rgba(92, 70, 156, 0.55) 70%);
+  width: 22rem;
+  height: 27.6rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  /* Overflow würde den bild überschuss verstecken, hier nicht gewollt, das meine Hand noch raus strecken sollte  */
+  /* overflow: hidden; */
+}
+
+/* === SCROLL DOWN === */
+.scroll_down{
+position: absolute;
+right: -2.3rem;
+bottom: 5rem;
+transform: rotate(90deg);
+font-weight: 400;
+font-size: 1rem;
 }

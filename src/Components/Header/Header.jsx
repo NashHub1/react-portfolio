@@ -13,17 +13,17 @@ const Header = () => {
   return (
     <header>
       {/* <div className={`${class1} ${class2}`}> */}
-      <div className='container header__container' >
+      <div className='container header_container' >
       
         <h5>Hello I'm</h5>
         <h1>Michael Stephens</h1>
         <h5 className='text_light' >Fullstack Developer</h5>
         <CTA />
         <HeaderSocials />
-        <div className='nash'>
+        <div className='nash_img'>
           <img src={Nash} alt='Me' />
         </div>
-        <a href='#contact' className='scroll__down'>Scroll Down</a>
+        <a href='#contact' className='scroll_down'>Scroll Down</a>
       </div>
     </header>
   )
