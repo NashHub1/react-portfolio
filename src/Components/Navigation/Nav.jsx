@@ -1,10 +1,17 @@
 import React from 'react'
-
+import './Nav.css'
+import {BsBook} from 'react-icons/bs'
+import {AiOutlineHome, AiOutlineUser, AiOutlineBook} from 'react-icons/ai'
 const Nav = () => {
   return (
-    <div>
-      Nav
-    </div>
+    <nav>
+      <a href='#'><AiOutlineHome/></a>
+      <a href='#About'><AiOutlineUser/></a>
+      <a href='#Experience'><BsBook/></a>
+      <a href='#Services'><AiOutlineHome/></a>
+      <a href='#Contact'><AiOutlineHome/></a>
+
+    </nav>
   )
 }
 
