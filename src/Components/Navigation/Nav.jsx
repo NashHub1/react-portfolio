@@ -5,12 +5,11 @@ import {AiOutlineHome, AiOutlineUser, AiOutlineBook} from 'react-icons/ai'
 const Nav = () => {
   return (
     <nav>
-      <a href='#'><AiOutlineHome/></a>
+      <a href='header'><AiOutlineHome/></a>
       <a href='#About'><AiOutlineUser/></a>
       <a href='#Experience'><BsBook/></a>
-      <a href='#Services'><AiOutlineHome/></a>
+      <a href='#Services'><AiOutlineBook/></a>
       <a href='#Contact'><AiOutlineHome/></a>
-
     </nav>
   )
 }

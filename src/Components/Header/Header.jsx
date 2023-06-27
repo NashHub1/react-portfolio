@@ -11,7 +11,7 @@ const Header = () => {
   // const class2 = sytles.header__container;
   
   return (
-    <header>
+    <header id='header'>
       {/* <div className={`${class1} ${class2}`}> */}
       <div className='container header_container' >
       
