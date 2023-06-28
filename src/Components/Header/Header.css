@@ -44,9 +44,10 @@ header {
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
+  border-radius: 12rem 12rem 2rem 2rem;
+  overflow: hidden;
   /* Overflow würde den bild überschuss verstecken, hier nicht gewollt, das meine Hand noch raus strecken sollte  */
-  /* overflow: hidden; */
+ /* Doch angewendet, da ich BorderRadius überall angewendet habe */
 }
 
 /* === SCROLL DOWN === */
