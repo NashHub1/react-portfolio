@@ -1,5 +1,8 @@
 import React from "react";
 import Michael from '../../Assets/MeAndEinstein.png'
+import { BsFileEarmarkCode } from 'react-icons/bs'
+import { RiTeamFill } from 'react-icons/ri'
+
 
 const About = () => {
   return (
@@ -9,17 +12,30 @@ const About = () => {
 
       <div className="container about_container">
         <div className="about_me">
-          <div className="about_me-image">
-            <img src={Michael}  alt="Michael Stephens" />
+          <div className="about_me_image">
+            <img src={Michael} alt="Michael Stephens" />
           </div>
         </div>
         <div className="about_content">
-        <div className="about_cards">
-        <article className="about_card">
+          <div className="about_cards">
+            <article className="about_card">
+              <BsFileEarmarkCode  className="about_icon"/>
+              <h5>Erfahrung</h5>
+              <small>1,5 Jahre am programmieren</small>
+            </article>
+            <article className="about_card">
+              <RiTeamFill  className="about_icon"/>
+              <h5>Erfahrung</h5>
+              <small>1,5 Jahre am programmieren</small>
+            </article>
+          </div>
 
-        </article>
-        </div>
-
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, facere aspernatur voluptates quaerat, 
+            tempora nisi quisquam maiores exercitationem atque distinctio excepturi cupiditate? Perferendis, 
+            fugiat cupiditate autem aperiam nesciunt cum delectus?
+          </p>
+          <a href="#Contact" className="btn btn_primary">Let's Talk</a>
         </div>
 
 
