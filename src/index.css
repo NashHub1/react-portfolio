@@ -105,9 +105,9 @@ a:hover {
   border-color: transparent;
 }
 
-.btn-primary {
+.btn_primary {
   background: var(--color-primary) ;
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 
 img {
