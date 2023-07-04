@@ -74,8 +74,17 @@ font-size: 1rem;
   header{
     height: 120vh;
   }
-  .header_socials,
+  
   .scroll_down{
     display: none;
   }
+  .header_socials {
+    display: block;
+    position: relative;
+    margin-top: 2rem;
+    bottom:0px;
+  }
+  .header_socials > a {
+    padding: 1rem;
+}
 }
