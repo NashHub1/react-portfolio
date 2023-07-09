@@ -15,7 +15,9 @@ const Header = () => {
       {/* <div className={`${class1} ${class2}`}> */}
       <div className='container header_container' >
       
-        <h5>Hello I'm</h5>
+        {/* <h5>Hello I'm</h5> */}
+        <h5>Hallo, ich bin </h5>
+
         <h1>Michael Stephens</h1>
         <h5 className='text_light' >Fullstack Developer</h5>
         <CTA />

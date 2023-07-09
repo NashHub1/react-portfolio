@@ -21,13 +21,17 @@ const About = () => {
           <div className="about_cards">
             <article className="about_card">
               <BsFileEarmarkCode className="about_icon" />
-              <h5>Erfahrung</h5>
-              <small>1,5 Jahre am programmieren</small>
+              {/* <h5>Erfahrung</h5> */}
+              <h5>Experience</h5>
+              {/* <small>2 Jahren kontinuierlich in der Programmierung engagiert</small> */}
+              <small>2 years continuously involved in coding</small>
             </article>
             <article className="about_card">
               <RiTeamFill className="about_icon" />
-              <h5>Projekte</h5>
-              <small>+10 Projekte in verschieden Sprachen</small>
+              {/* <h5>Projekte</h5> */}
+              <h5>Projects</h5>
+              {/* <small>+5 Projekte in verschieden Sprachen</small> */}
+              <small>Over 5 projects across multiple languages</small>
             </article>
           </div>
 
