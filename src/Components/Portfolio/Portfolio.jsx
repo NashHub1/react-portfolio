@@ -1,6 +1,33 @@
 import React from 'react'
 import IMG1 from '../../Assets/portfolio6.jpg'
 import './Portfolio.css'
+
+
+const portfolioData = [
+  {
+    id: 1,
+    image: IMG1,
+    title: 'SmartHome',
+    github: 'https://github.com',
+    demo: 'https://github.com'
+  },
+  {
+    id: 2,
+    image: IMG1,
+    title: 'FoodOrderApp',
+    github: 'https://github.com',
+    demo: 'https://github.com'
+  },
+  {
+  id: 3,
+  image: IMG1,
+  title: 'Java',
+  github: 'https://github.com',
+  demo: 'https://github.com'
+  }
+
+]
+
 const Portfolio = () => {
   return (
     <section id='Portfolio'>
@@ -8,44 +35,23 @@ const Portfolio = () => {
       <h2 className="text-light">Portfolio</h2>
 
       <div className="container portfolio_container">
-        <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG1} className="image" alt='Portfolio' />
-          </div>
-          <h3>SmartHome</h3>
-          <div className="portfolio_item_cta">
-            <a href="https://github.com/NashHub1" className="btn" target="_blank" rel="noopener noreferrer">Github</a>
-            <a href="" className="btn btn_primary" target="_blank" rel="noopener noreferrer">Site</a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG1} className="image" alt='Portfolio' />
-          </div>
-          <h3>SmartHome</h3>
-          <div className="portfolio_item_cta">
-            <a href="" className="btn" target="_blank" rel="noopener noreferrer">Github</a>
-            <a href="" className="btn btn_primary" target="_blank" rel="noopener noreferrer">Site</a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG1} className="image" alt='Portfolio' />
-          </div>
-          <h3>SmartHome</h3>
-          <div className="portfolio_item_cta">
-            <a href="" className="btn" target="_blank" rel="noopener noreferrer">Github</a>
-            <a href="" className="btn btn_primary" target="_blank" rel="noopener noreferrer">Site</a>
-          </div>
-        </article>
-
-
-
-
-
-
+      {
+          portfolioData.map(({id, image, title, github, demo}) => {
+            return(
+              <article key={id} className="portfolio_item">
+                <div className="portfolio_item_image">
+                  <img src={image} className="image" alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio_item_cta">
+                  <a href={github} className="btn" target="_blank" rel="noopener noreferrer">Github</a>
+                  <a href={demo} className="btn btn_primary" target="_blank" rel="noopener noreferrer">Site</a>
+                </div>
+              </article>
+            )
+          })
+        }
       </div>
-
     </section>
   )
 }
