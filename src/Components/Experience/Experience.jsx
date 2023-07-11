@@ -8,7 +8,7 @@ const Experience = () => {
       <h5 className="text-light">My Skills</h5>
 
       {/* <h2 className="text-light">Abgeschloßene Projekte</h2> */}
-      <h2 className="text-light">Completed Projects</h2>
+      <h2 className="text-light">Experience</h2>
 
 
       <div className="container experience_container">

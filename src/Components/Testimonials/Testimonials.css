@@ -1,6 +1,7 @@
-.testimonials_container {
+.container.testimonials_container {
   width: 40%;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
+
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -20,6 +21,8 @@
   padding: 2rem;
   border-radius: 2rem;
   user-select: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 8px;
+
 }
 .client_review {
   color: var(--color-light);

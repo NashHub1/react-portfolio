@@ -42,6 +42,7 @@ const Testimonials = () => {
       <h5 >Sample reviews from clients</h5>
       <h2 >Testimonials</h2>
       <Swiper className="container testimonials_container"
+            //Install Swiper modules
         modules={[Pagination, Navigation]}
         spaceBetween={40}
         slidesPerView={1}

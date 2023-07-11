@@ -1,9 +1,8 @@
 .experience_container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 1.8rem;
-    width: auto;
-    margin: 0 2rem;
+
 }
 
 .experience_container > div{
@@ -11,7 +10,9 @@
     padding: 2.4rem 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition)
+    transition: var(--transition);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 .experience_container > div:hover {
     background: rgba(77, 181, 255, 0.1);;
