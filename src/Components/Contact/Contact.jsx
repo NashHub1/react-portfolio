@@ -1,6 +1,8 @@
 import React from 'react'
 import './Contact.css'
 import { BsEnvelope,BsLinkedin } from 'react-icons/bs'
+import { useRef, useState } from 'react'
+import emailjs from 'emailjs-com'
 
 
 const Contact = () => {
@@ -28,7 +30,7 @@ const Contact = () => {
             <input type="text" name="name" placeholder="Your Full Name" required />
             <input type="email" name="email" placeholder="Your Email" required />
             <textarea name="message" rows="7" required placeholder="Your Message"></textarea>
-            <button type="submit" className="btn btn_primary">Send Message</button>
+            <button type="submit" className="btn btn_primary" onClick={()=> alert('This is an example form. Function was not enabled by admin ') }>Send Message</button>
             {/* <span>{msg}</span> */}
           </form>
       </div>
