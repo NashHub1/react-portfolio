@@ -61,7 +61,8 @@ footer a {
 
 @media screen and (max-width: 600px) {
     .permalinks {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 1.3rem;
 
     }
