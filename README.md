@@ -22,4 +22,4 @@ You can check out the live demo of this project [here](https://nashhub1.github.i
 
 The live demo allows you to see the project in action without having to download or run the code locally. Feel free to explore and interact with the demo to get a better understanding of the project.
 
-!For your information, this is just a sample website!
+¡ For your information, this is just a sample website !
