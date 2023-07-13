@@ -1,6 +1,6 @@
 import React from 'react'
 import IMG1 from '../../Assets/portfolio6.jpg'
-import IMG2 from '../../Assets/portfolio5.jpg'
+import IMG2 from '../../Assets/portfolio5.png'
 import IMG3 from '../../Assets/portfolio2.jpg'
 
 
@@ -41,7 +41,7 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         {
           // portfolioData.map(({id, image, title, github, demo}) => {
-          portfolioData.map(({ id, image, title, github }) => {
+          portfolioData.map(({ id, image, title, github, demo }) => {
             return (
               <article key={id} className="portfolio_item">
                 <div className="portfolio_item_image">
@@ -50,7 +50,12 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio_item_cta">
                   <a href={github} className="btn" target="_blank" rel="noopener noreferrer">Github</a>
-                  <a href={demo} className="btn btn_primary" target="_blank" rel="noopener noreferrer">Site</a>
+                  {demo ? (
+                    <a href={demo} className="btn btn_primary" target="_blank" rel="noopener noreferrer">
+                      Site
+                    </a>
+                  ) : null}
+
                 </div>
               </article>
             )

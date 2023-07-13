@@ -35,10 +35,10 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, facere aspernatur voluptates quaerat,
-            tempora nisi quisquam maiores exercitationem atque distinctio excepturi cupiditate? Perferendis,
-            fugiat cupiditate autem aperiam nesciunt cum delectus?
+          <p>Bachelor's degree in industrial engineering for electrical and information technology.
+          Strong software development skills and a passion for programming.
+          Interest in exciting projects and active participation in agile software development.
+          Willing to develop innovative solutions and contribute to the success of a team.
           </p>
           <a href="#Contact" className="btn btn_primary">Let's Talk</a>
         </div>

@@ -1,6 +1,6 @@
 # Michael Stephens Portfolio
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-And with the help of [EGATOR](https://www.patreon.com/egator).
+Inspired by [EGATOR](https://www.patreon.com/egator).
 
 ## Documentation
 This is a React Portfolio.

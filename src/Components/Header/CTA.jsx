@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../Assets/CV_Stephens_black.pdf'
+import CV from '../../Assets/Lebenslauf_modern_Abgedeckt.pdf'
 import './Header.css'
 function CTA() {
   return (
