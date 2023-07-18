@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f8d51781.css",
-    "main.js": "/react-portfolio/static/js/main.c6f7270d.js",
+    "main.css": "/react-portfolio/static/css/main.69d92d56.css",
+    "main.js": "/react-portfolio/static/js/main.67008941.js",
     "static/media/MeAndEinstein.png": "/react-portfolio/static/media/MeAndEinstein.f3328075219a8f951224.png",
     "static/media/nash_smile.PNG": "/react-portfolio/static/media/nash_smile.916b58778d4c04ee7b6e.PNG",
-    "static/media/CV_Stephens_black.pdf": "/react-portfolio/static/media/CV_Stephens_black.b36d1ecf5454708e4f65.pdf",
     "static/media/portfolio5.png": "/react-portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/react-portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/Lebenslauf_modern_Abgedeckt.pdf": "/react-portfolio/static/media/Lebenslauf_modern_Abgedeckt.81465fa1e00db1524265.pdf",
     "static/media/portfolio6.jpg": "/react-portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.f8d51781.css.map": "/react-portfolio/static/css/main.f8d51781.css.map",
-    "main.c6f7270d.js.map": "/react-portfolio/static/js/main.c6f7270d.js.map"
+    "main.69d92d56.css.map": "/react-portfolio/static/css/main.69d92d56.css.map",
+    "main.67008941.js.map": "/react-portfolio/static/js/main.67008941.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8d51781.css",
-    "static/js/main.c6f7270d.js"
+    "static/css/main.69d92d56.css",
+    "static/js/main.67008941.js"
   ]
 }
