@@ -44,12 +44,12 @@ header {
 /* === ME === */
 .nash_img {
   background: linear-gradient(var(--color-primary) 20%, rgba(92, 70, 156, 0.55) 70%);
-  width: 22rem;
-  height: 27.6rem;
+  width: 23rem;
+  height: 23rem;
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
-  border-radius: 12rem 12rem 2rem 2rem;
+  border-radius: 2rem;
   overflow: hidden;
   /* Overflow würde den bild überschuss verstecken, hier nicht gewollt, das meine Hand noch raus strecken sollte  */
  /* Doch angewendet, da ich BorderRadius überall angewendet habe */

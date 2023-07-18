@@ -60,6 +60,8 @@ footer a {
 /* Media Queries (SM) */
 
 @media screen and (max-width: 600px) {
+    
+
     .permalinks {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

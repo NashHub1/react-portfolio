@@ -8,6 +8,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  outline: 0;
 }
 /* #0C134F #1D267D #5C469C #D4ADFC #F5EFE7 beige
 https://colorhunt.co/palette/0c134f1d267d5c469cd4adfc
@@ -24,9 +25,14 @@ https://colorhunt.co/palette/f5efe7d8c4b64f709c213555
 
   --transition: all 400ms ease ;
 
-  --container-width-lg: 78%;
+  /* --container-width-lg: 78%;
   --container-width-md: 86%;
-  --container-width-sm: 90%;
+  --container-width-sm: 90%; */
+
+  --container-width-xl:   75%;
+  --container-width-lg:   80%;
+  --container-width-md:   86%;
+  --container-width-sm:   95%;
 
 }
 
@@ -48,12 +54,14 @@ background-image: url(../src/Assets/bg-texture.png);
 
 /* GENERALS STYLES */
 .container {
-  width: var(--container-width-lg);
+  width: var(--container-width-xl);
   margin: 0 auto;
 }
 
 h1,h2,h3,h4,h5 {
   font-weight: 500;
+  margin-top: .2em;
+  margin-bottom: .6em;
 }
 
 h1{
@@ -62,6 +70,8 @@ h1{
 
 section{
   margin-top: 8rem;
+  /* padding-top: 8rem;
+  height: 100vh; */
 }
 
 section > h2,
@@ -115,6 +125,18 @@ img {
   object-fit: cover;
 }
 
+/* Media Queries (Notebooks) */
+@media screen and (max-width: 1300px){
+  .container {
+    width: var(--container-width-lg);
+  }
+  section {
+    height:auto;
+    margin-top: .5rem;
+    padding-top: .5rem;
+  }
+}
+
 /*Media Queries ( Medium Devices) */
 
 @media screen and (max-width: 1024px){
@@ -122,16 +144,26 @@ img {
     width:var(--container-width-md);
   }
   section {
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
+    height:auto;
+    margin-top: 3rem;
+    padding-top: 2rem;
   }
 }
 
 /*Media Queries ( Small Devices) */
 
 @media screen and (max-width: 600px){
+
+  
   .container {
     width:var(--container-width-sm);
   }
+  section {
+    height:auto;
+    margin-top: 1.5rem;
+  }
+  
   section > h2{
     margin-bottom : 2rem;
   }
