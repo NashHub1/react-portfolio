@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 80vh;
   padding-top: 5rem;
   overflow: hidden;
 }
@@ -44,10 +44,10 @@ header {
 /* === ME === */
 .nash_img {
   background: linear-gradient(var(--color-primary) 20%, rgba(92, 70, 156, 0.55) 70%);
-  width: 23rem;
-  height: 23rem;
+  width: 27rem;
+  height: 27rem;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: calc(50% - 13rem);
   margin-top: 4rem;
   border-radius: 2rem;
   overflow: hidden;

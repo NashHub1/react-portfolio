@@ -25,7 +25,8 @@ const portfolioData = [
   {
     id: 3,
     image: IMG3,
-    title: 'Mikrocontroller - in C - CoAP',
+    image2: IMG1,
+    title: 'Mikrocontroller: Texas Instruments EK-TM4C129EXL',
     github: 'https://github.com/NashHub1/VS_Gruppe4_Coap_Sensor',
     // demo: 'https://github.com'
   }
@@ -41,7 +42,7 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         {
           // portfolioData.map(({id, image, title, github, demo}) => {
-          portfolioData.map(({ id, image, title, github, demo }) => {
+          portfolioData.map(({ id, image, title, github, demo, image2 }) => {
             return (
               <article key={id} className="portfolio_item">
                 <div className="portfolio_item_image">
