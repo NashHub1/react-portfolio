@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.41fa4882.css",
-    "main.js": "/react-portfolio/static/js/main.edce3839.js",
+    "main.css": "/react-portfolio/static/css/main.077ec501.css",
+    "main.js": "/react-portfolio/static/js/main.69124c22.js",
     "static/media/MeAndEinstein.png": "/react-portfolio/static/media/MeAndEinstein.f3328075219a8f951224.png",
-    "static/media/nash_smile.PNG": "/react-portfolio/static/media/nash_smile.916b58778d4c04ee7b6e.PNG",
+    "static/media/Me_Basel.png": "/react-portfolio/static/media/Me_Basel.3c2ba8d072324e5dc3d4.png",
     "static/media/portfolio5.png": "/react-portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/react-portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/Lebenslauf_modern_Abgedeckt.pdf": "/react-portfolio/static/media/Lebenslauf_modern_Abgedeckt.81465fa1e00db1524265.pdf",
     "static/media/portfolio6.jpg": "/react-portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.41fa4882.css.map": "/react-portfolio/static/css/main.41fa4882.css.map",
-    "main.edce3839.js.map": "/react-portfolio/static/js/main.edce3839.js.map"
+    "main.077ec501.css.map": "/react-portfolio/static/css/main.077ec501.css.map",
+    "main.69124c22.js.map": "/react-portfolio/static/js/main.69124c22.js.map"
   },
   "entrypoints": [
-    "static/css/main.41fa4882.css",
-    "static/js/main.edce3839.js"
+    "static/css/main.077ec501.css",
+    "static/js/main.69124c22.js"
   ]
 }
