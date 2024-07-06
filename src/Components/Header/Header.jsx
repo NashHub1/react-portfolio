@@ -1,6 +1,6 @@
 import React from 'react'
 import CTA from './CTA'
-import Nash from '../../Assets/nash_smile.PNG'
+import Nash from '../../Assets/Me_Basel.png'
 import HeaderSocials from './HeaderSocials'
 import Typical from 'react-typical'
 

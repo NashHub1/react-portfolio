@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
 * {
-
   margin: 0;
   padding: 0;
   border: 0;
@@ -10,10 +9,7 @@
   text-decoration: none;
   outline: 0;
 }
-/* #0C134F #1D267D #5C469C #D4ADFC #F5EFE7 beige
-https://colorhunt.co/palette/0c134f1d267d5c469cd4adfc
-https://colorhunt.co/palette/f5efe7d8c4b64f709c213555
-*/
+
 :root {
   --color-bg: #213555; 
   --color-bg-variant: #2c2c6c;
@@ -22,61 +18,51 @@ https://colorhunt.co/palette/f5efe7d8c4b64f709c213555
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #F5EFE7;
   --color-light: rgba(255, 255, 255, 0.6);
-
   --transition: all 400ms ease ;
-
-  /* --container-width-lg: 78%;
+  --container-width-xl: 75%;
+  --container-width-lg: 80%;
   --container-width-md: 86%;
-  --container-width-sm: 90%; */
-
-  --container-width-xl:   75%;
-  --container-width-lg:   80%;
-  --container-width-md:   86%;
-  --container-width-sm:   95%;
-
+  --container-width-sm: 95%;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
-body{
-font-family: 'Montserrat', sans-serif;
-background: var(--color-bg);
-color: var(--color-white);
-line-height: 1.7;
-background-image: url(../src/Assets/bg-texture.png);
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-image: url(../src/Assets/bg-texture.png);
 }
 
-/* GENERALS STYLES */
+/* General Styles */
 .container {
   width: var(--container-width-xl);
   margin: 0 auto;
 }
 
-h1,h2,h3,h4,h5 {
+h1, h2, h3, h4, h5 {
   font-weight: 500;
   margin-top: .2em;
   margin-bottom: .6em;
 }
 
-h1{
+h1 {
   font-size: 2.5rem;
 }
 
-section{
+section {
   margin-top: 8rem;
-  /* padding-top: 8rem;
-  height: 100vh; */
 }
 
-section > h2,
-section >h5 {
-  text-align: center ;
+section > h2, section > h5 {
+  text-align: center;
   color: var(--color-light);
 }
 
@@ -85,12 +71,13 @@ section > h2 {
   margin-bottom: 3rem;
 }
 
-.text_light{
-color: var(--color-light);
+.text_light {
+  color: var(--color-light);
 }
+
 a {
   color: var(--color-primary);
-  transition: var(--transition) ;
+  transition: var(--transition);
 }
 
 a:hover {
@@ -99,7 +86,7 @@ a:hover {
 
 .btn {
   width: max-content;
-  display:  inline-block;
+  display: inline-block;
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
@@ -108,14 +95,14 @@ a:hover {
   transition: var(--transition);
 }
 
-.btn:hover{
+.btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
 }
 
 .btn_primary {
-  background: var(--color-primary) ;
+  background: var(--color-primary);
   color: var(--color-white);
 }
 
@@ -126,45 +113,39 @@ img {
 }
 
 /* Media Queries (Notebooks) */
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
   .container {
     width: var(--container-width-lg);
   }
   section {
-    height:auto;
+    height: auto;
     margin-top: .5rem;
     padding-top: .5rem;
   }
 }
 
-/*Media Queries ( Medium Devices) */
-
-@media screen and (max-width: 1024px){
+/* Media Queries (Medium Devices) */
+@media screen and (max-width: 1024px) {
   .container {
-    width:var(--container-width-md);
+    width: var(--container-width-md);
   }
   section {
-    /* margin-top: 6rem; */
-    height:auto;
+    height: auto;
     margin-top: 3rem;
     padding-top: 2rem;
   }
 }
 
-/*Media Queries ( Small Devices) */
-
-@media screen and (max-width: 600px){
-
-  
+/* Media Queries (Small Devices) */
+@media screen and (max-width: 600px) {
   .container {
-    width:var(--container-width-sm);
+    width: var(--container-width-sm);
   }
   section {
-    height:auto;
+    height: auto;
     margin-top: 1.5rem;
   }
-  
-  section > h2{
-    margin-bottom : 2rem;
+  section > h2 {
+    margin-bottom: 2rem;
   }
 }

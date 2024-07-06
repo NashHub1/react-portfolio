@@ -31,7 +31,6 @@ header {
 }
 .header_socials a {
   font-size: 1.7rem;
-
 }
 
 .header_socials::after {
@@ -43,54 +42,74 @@ header {
 
 /* === ME === */
 .nash_img {
-  background: linear-gradient(var(--color-primary) 20%, rgba(92, 70, 156, 0.55) 70%);
+  /* background: linear-gradient(var(--color-primary) 20%, rgba(92, 70, 156, 0.55) 70%); */
   width: 27rem;
   height: 27rem;
   position: absolute;
-  left: calc(50% - 13rem);
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 4rem;
   border-radius: 2rem;
   overflow: hidden;
-  /* Overflow würde den bild überschuss verstecken, hier nicht gewollt, das meine Hand noch raus strecken sollte  */
- /* Doch angewendet, da ich BorderRadius überall angewendet habe */
+}
+
+.nash_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top; /* Verschiebt das Bild nach unten */
+  border-radius: 2rem; /* Optional: Entfernen oder Anpassen, wenn weniger rund gewünscht */
 }
 
 /* === SCROLL DOWN === */
-.scroll_down{
-position: absolute;
-right: -2.3rem;
-bottom: 7rem;
-transform: rotate(90deg);
-font-weight: 400;
-font-size: 1rem;
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 7rem;
+  transform: rotate(90deg);
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 /*Media Queries ( Medium Devices) */
-
-@media screen and (max-width: 1024px){
-  header{
+@media screen and (max-width: 1024px) {
+  header {
     height: 68vh;
   }
 }
 
 /*Media Queries ( SMALL Devices) */
-
-@media screen and (max-width: 600px){
-  header{
+@media screen and (max-width: 600px) {
+  header {
     height: 120vh;
-    /* align-items: center; */
   }
   
-  .scroll_down{
+  .scroll_down {
     display: none;
   }
+  
   .header_socials {
     display: block;
     position: relative;
     margin-top: 2rem;
-    bottom:0px;
+    bottom: 0px;
   }
+  
   .header_socials > a {
     padding: 1rem;
-}
+  }
+  
+  .nash_img {
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: 2rem auto 0;
+    left: 0;
+    transform: none;
+  }
+  
+  .nash_img img {
+    object-position: center top; /* Positioniert das Bild oben zentriert */
+    border-radius: 1rem; /* Optional: Anpassen oder Entfernen */
+  }
 }

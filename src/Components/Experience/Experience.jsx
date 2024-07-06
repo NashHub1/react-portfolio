@@ -32,7 +32,7 @@ const Experience = () => {
             <article className="experience_details" title="Etwas">
               <BsPatchCheckFill className="experience_details_icon" />
               <div>
-                <h5>JavaFX</h5>
+                <h5>Angular</h5>
                 <progress value="50" max="100"></progress>
               </div>
             </article>
@@ -53,27 +53,28 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details_icon" />
               <div>
                 <h5>Java</h5>
-                <progress value="60" max="100"></progress>
+                <progress value="70" max="100"></progress>
               </div>
             </article>
             <article className="experience_details" title="Etwas">
               <BsPatchCheckFill className="experience_details_icon" />
               <div>
-                <h5>C</h5>
-                <progress value="50" max="100"></progress>
+                <h5>C#</h5>
+                <progress value="80" max="100"></progress>
               </div>
             </article>
             <article className="experience_details" title="Etwas">
               <BsPatchCheckFill className="experience_details_icon" />
               <div>
                 <h5>SQL</h5>
-                <progress value="40" max="100"></progress>
+                <p>Azure Data Studio</p>
+                <progress value="80" max="100"></progress>
               </div>
             </article>
             <article className="experience_details" title="Etwas">
               <BsPatchCheckFill className="experience_details_icon" />
               <div>
-                <h5>REST/MQTT/COAP</h5>
+                <h5>REST/MQTT/COAP/OPC UA</h5>
                 <progress value="70" max="100"></progress>
               </div>
             </article>
